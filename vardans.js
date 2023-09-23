@@ -106,7 +106,7 @@ function random_item()
 };
 
 function changeBackground(image){
-  const pics=["/vcards/G1.jpeg",
+  const pics=["/vardan.github.io/vcards/G1.jpeg",
 "/vardan.github.io/vcards/G2.jpeg",
 "/vardan.github.io/vcards/G3.jpeg",
 "/vardan.github.io/vcards/G4.jpeg",
