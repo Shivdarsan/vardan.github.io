@@ -106,19 +106,19 @@ function random_item()
 };
 
 function changeBackground(image){
-  const pics=["../GaneshVardan/vcards/G1.jpeg",
-"../GaneshVardan/vcards/G2.jpeg",
-"../GaneshVardan/vcards/G3.jpeg",
-"../GaneshVardan/vcards/G4.jpeg",
-"../GaneshVardan/vcards/G5.jpeg",
-"../GaneshVardan/vcards/G6.jpeg",
-"../GaneshVardan/vcards/G7.jpeg",
-"../GaneshVardan/vcards/G8.jpeg",
-"../GaneshVardan/vcards/G9.jpeg",
-"../GaneshVardan/vcards/G10.jpeg",
-"../GaneshVardan/vcards/G11.jpeg",
-"../GaneshVardan/vcards/G12.jpeg",
-"../GaneshVardan/vcards/G13.jpeg"
+  const pics=["/vcards/G1.jpeg",
+"/vcards/G2.jpeg",
+"/vcards/G3.jpeg",
+"/vcards/G4.jpeg",
+"/vcards/G5.jpeg",
+"/vcards/G6.jpeg",
+"/vcards/G7.jpeg",
+"/vcards/G8.jpeg",
+"/vcards/G9.jpeg",
+"/vcards/G10.jpeg",
+"/vcards/G11.jpeg",
+"/vcards/G12.jpeg",
+"/vcards/G13.jpeg"
 ]
   var randomNumber = Math.floor(Math.random() * pics.length);
   var image = pics[randomNumber];
