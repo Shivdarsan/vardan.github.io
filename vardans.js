@@ -107,18 +107,18 @@ function random_item()
 
 function changeBackground(image){
   const pics=["/vcards/G1.jpeg",
-"/vcards/G2.jpeg",
-"/vcards/G3.jpeg",
-"/vcards/G4.jpeg",
-"/vcards/G5.jpeg",
-"/vcards/G6.jpeg",
-"/vcards/G7.jpeg",
-"/vcards/G8.jpeg",
-"/vcards/G9.jpeg",
-"/vcards/G10.jpeg",
-"/vcards/G11.jpeg",
-"/vcards/G12.jpeg",
-"/vcards/G13.jpeg"
+"/vardan.github.io/vcards/G2.jpeg",
+"/vardan.github.io/vcards/G3.jpeg",
+"/vardan.github.io/vcards/G4.jpeg",
+"/vardan.github.io/vcards/G5.jpeg",
+"/vardan.github.io/vcards/G6.jpeg",
+"/vardan.github.io/vcards/G7.jpeg",
+"/vardan.github.io/vcards/G8.jpeg",
+"/vardan.github.io/vcards/G9.jpeg",
+"/vardan.github.io/vcards/G10.jpeg",
+"/vardan.github.io/vcards/G11.jpeg",
+"/vardan.github.io/vcards/G12.jpeg",
+"/vardan.github.io/vcards/G13.jpeg"
 ]
   var randomNumber = Math.floor(Math.random() * pics.length);
   var image = pics[randomNumber];
